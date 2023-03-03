@@ -1,18 +1,15 @@
-import TopNavbar from "../components/TopNavbar";
-import { Container } from "react-bootstrap";
+import TopNavbar from '../components/TopNavbar';
+import TitlePageBody from '../components/TitlePageBody';
+import BottomFooter from '../components/BottomFooter';
 
 const TitlePage = () => {
-	return (
-		<div>
-			<TopNavbar />
-			<Container>
-				<h1>Pitchi Paaji</h1>
-				<h1>Kaata Paau</h1>
-				<h1>Nunny Baba</h1>
-				<h1>Puli</h1>
-			</Container>
-		</div>
-	);
+  return (
+    <div>
+      <TopNavbar />
+      <TitlePageBody />
+      <BottomFooter />
+    </div>
+  );
 };
 
 export default TitlePage;
